@@ -1,9 +1,8 @@
 #include "gravity.hpp"
-#include "objects/Particle.hpp"
-#include "Vectors/vector.hpp"
-#include "physics/forces.hpp"
+#include "../objects/Particle.hpp"
+#include "../Vectors/vector.hpp"
 
-void ParticleGravityFall(Particle &p, cyclone::real duration){
+void ParticleGravityFall(cyclone::Particle &p, cyclone::real duration){
     // update particle position
     p.displacement.addScaledVector(p.velocity, duration);
 

@@ -1,12 +1,12 @@
 #include <iostream>
-
-#include "objects/Particle.hpp"
 #include "physics/gravity.hpp"
+#include "objects/Particle.hpp"
+#include "Vectors/vector.hpp"
 
 using namespace std;
 
 int main(){
-    Particle p1; 
+    cyclone::Particle p1; 
     p1.setDisplacement(0,0,12);
     p1.setVelocity(0,0,-0.5);
     

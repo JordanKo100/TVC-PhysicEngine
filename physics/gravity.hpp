@@ -1,5 +1,6 @@
 #pragma once
 
-#include "objects/Particle.hpp"
+#include "../objects/Particle.hpp"
+#include "../Vectors/vector.hpp"
 
-void ParticleGravityFall(Particle &p, cyclone::real duration);
+void ParticleGravityFall(cyclone::Particle &p, cyclone::real duration);

@@ -1,3 +1,5 @@
+#pragma once
+
 #include <cmath>
 
 #define real_sqrt sqrtf

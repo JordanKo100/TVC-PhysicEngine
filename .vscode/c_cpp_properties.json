@@ -3,8 +3,10 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "C:\\Users\\ejord\\TVC-Simulator-PhysEng"
+                "${workspaceFolder}",
+                "${workspaceFolder}/Vectors",
+                "${workspaceFolder}/objects",
+                "${workspaceFolder}/physics"
             ],
             "defines": [
                 "_DEBUG",
