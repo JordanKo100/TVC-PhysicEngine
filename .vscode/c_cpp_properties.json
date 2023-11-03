@@ -3,11 +3,11 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}",
                 "${workspaceFolder}/Vectors",
                 "${workspaceFolder}/objects",
                 "${workspaceFolder}/physics"
             ],
+            
             "defines": [
                 "_DEBUG",
                 "UNICODE",
